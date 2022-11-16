@@ -37,3 +37,39 @@ h2 {
     margin: 10px;
     padding: 0;
 }
+
+#logos{
+    position: fixed;
+}
+
+#logos h4{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#logo{
+  width: 10vh;
+  height: 10vh;
+  top: 2%;
+  left: 1%;
+}
+
+
+#brands{
+    display: flex;
+    justify-content:space-evenly;
+    position:fixed;
+    right: 1%;
+    top: 2%;
+    width: 20vh;
+    height: 3vh;
+
+}
+
+#insta, #facebook, #linkedin {
+    width: 3vh;
+    height: 3vh;
+}
+
