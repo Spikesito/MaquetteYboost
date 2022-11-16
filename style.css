@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    margin-left: 20%;
+    margin-top: 10vh;
+    height: 80vh;
+    width: 60%;
+}
+
+.upperSec {
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+}
+
+.window {
+    height: 10vh;
+    width: 25vh;
+    background-color: aquamarine;
+    border-radius: 20px;
+    border: solid 3px black;
+}
+
+.midSec {
+    background-color: beige;
+}
+
+.lowerSec {
+    background-color: beige;
+}
+
+h2 {
+    font-size: 100px;
+    margin: 10px;
+    padding: 0;
+}
