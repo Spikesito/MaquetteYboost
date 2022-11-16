@@ -43,15 +43,20 @@ body {
     height: 3vh;
 }
 
+.bellowPara {
+    display: flex;
+    justify-content: center;
+}
+
 #home {
-    margin-left: 20%;
-    padding-top: 15vh;
-    height: 70vh;
-    width: 60%;
+    /* margin-left: 20%; */
+    padding-top: 10vh;
+    height: 65vh;
+    padding-bottom: 10vh;
 }
 
 h2 {
-    font-size: 200px;
+    font-size: 110px;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
@@ -123,21 +128,22 @@ h2 {
     padding: 0;
 }
 
-@media screen and (max-width: 800px) {
+.underHomePic {
+    z-index: 998;
+    height: 100vh;
+    width: 100%;
+    background-image: url("./assets/images/archi_inte_2.jpg.jpg");
+    background-size: cover;
+}
+
+@media screen and (max-width:1200px){
     #home {
         padding-top: 10vh;
+        height: fit-content;
     }
 
     h2 {
-        font-size: 12vw;
-    }
-    
-    .desktopProjects {
-        display: none;
-    }
-
-    .mobileProjects {
-        display: block;
+        font-size: 90px;
     }
 
     .window {
@@ -150,14 +156,47 @@ h2 {
         transition: 1s;
         width: 40vw;
     }
-    
 
+    .underHomePic{
+        height: 45vh;
+    }
 }
 
-.underHomePic {
-    z-index: 998;
-    height: 70vh;
-    width: 100%;
-    background-image: url("./assets/images/archi_inte_2.jpg.jpg");
-    background-size: cover;
+@media screen and (max-width: 900px){
+    #home {
+        align-self: center;
+        height: fit-content;
+        padding-top: 10vh;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+    
+    .desktopProjects {
+        display: none;
+    }
+
+    .mobileProjects {
+        display: block;
+        font-size: 20px;
+    }
+
+    .window {
+        height: 11vw;
+        width: 30vw;
+        border-radius: 15px;
+    }
+
+    .window:hover {
+        transition: 1s;
+        width: 40vw;
+    }
+
+    .underHomePic{
+        height: 35vh;
+        width: 100%;
+    }
+    
+
 }
